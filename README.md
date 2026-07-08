@@ -28,3 +28,17 @@ Every task is treated as a record with the following structure:
 ├───> Option 1: [Input] ──> [Map to Dictionary Row] ──> [Append to Array]
 ├───> Option 2: [Validate State] ──> [Loop Through Rows] ──> [Formatted Output]
 └───> Option 3: [Break Loop] ──> [Graceful Shutdown]
+
+## 🛠️ Tech Stack & Prerequisites
+
+* **Environment:** Python 3.8 or higher
+* **Dependencies:** None (Uses pure Python native standard libraries)
+
+---
+
+## 🔮 Upcoming Updates & Roadmap
+We are planning to transition this lightweight utility into a production-grade full-stack application. Future releases will include:
+
+* Persistent Database Integration: Replacing in-memory arrays with an active relational database (like SQL Server via EF Core / Python equivalents) to save tasks permanently.
+* Full CRUD Implementations: Adding specific backend modules to support updating existing tasks (UPDATE) and removing completed tasks (DELETE) by target ID.
+* API Layer Evolution: Wrapping this core logical engine into a modern RESTful API backend structure to allow front-end communication.
