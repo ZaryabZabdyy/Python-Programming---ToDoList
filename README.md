@@ -1,4 +1,4 @@
-# 📝 DecodeLabs To-Do List Application
+# 📝 DecodeLabs Week # 01 Project: To-Do List Application
 
 A structured, console-based Task Management Utility built using Python. This project demonstrates in-memory data storage, auto-incrementing record identifiers, and structured data transformation resembling a relational database workflow.
 
